@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+  font-weight: 750;
+}
+
+#first_row {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 150px;
+}
+.boxes {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: rgb(251, 210, 134);
+  position: relative;
+}
+.boxes:hover {
+  background-color: #ffab58;
+}
+
+.boxes > img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+#container_1 > h3 {
+  position: absolute;
+  top: 150px;
+  left: 120px;
+  font-size: 23px;
+  line-height: 28px;
+}
+#container_1 > h3:hover {
+  color: rgb(225, 163, 28);
+}
+#container_1 > p {
+  position: absolute;
+  top: 230px;
+  left: 120px;
+}
+
+#container_2 > h3 {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  font-size: 23px;
+  line-height: 28px;
+}
+#container_2 > h3:hover {
+  color: rgb(225, 163, 28);
+}
+#container_2 > p {
+  position: absolute;
+  top: 230px;
+  left: 500px;
+}
+
+#container_3 > h3 {
+  position: absolute;
+  top: 150px;
+  left: 900px;
+  font-size: 23px;
+  line-height: 28px;
+}
+#container_3 > h3:hover {
+  color: rgb(225, 163, 28);
+}
+#container_3 > p {
+  position: absolute;
+  top: 230px;
+  left: 900px;
+}
+
+#container_4 > h3 {
+  position: relative;
+  top: 25px;
+  font-size: 23px;
+  line-height: 28px;
+}
+#container_4 > h3:hover {
+  color: rgb(225, 163, 28);
+}
+#container_4 > p {
+  position: absolute;
+  top: 230px;
+  left: 80vw;
+}
+
+
+
+#second_row {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 290px;
+  }
+
+  #container_5 > h3 {
+    position: relative;
+    top: 25px;
+    font-size: 23px;
+    line-height: 28px;
+  }
+  #container_5 > h3:hover {
+    color: rgb(225, 163, 28);
+  }
+  #container_5 > p {
+    position: absolute;
+    top: 220px;
+    left: 238px;
+  }
+
+  #container_6 > h3 {
+    position: relative;
+    top: 25px;
+    font-size: 23px;
+    line-height: 28px;
+  }
+  #container_6 > h3:hover {
+    color: rgb(225, 163, 28);
+  }
+  #container_6 > p {
+    position: absolute;
+    top: 220px;
+    left: 615px;
+  }
+
+  #container_7 > h3 {
+    position: relative;
+    top: 25px;
+    font-size: 23px;
+    line-height: 28px;
+  }
+  #container_7 > h3:hover {
+    color: rgb(225, 163, 28);
+  }
+  #container_7 > p {
+    position: absolute;
+    top: 220px;
+    left: 65.2vw;
+  }
